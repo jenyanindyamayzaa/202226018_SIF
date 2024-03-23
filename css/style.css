@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding: 30px 0;
+    background-color: #333;
+}
+.medsos ul li {
+    display: inline-block;
+    color: #fff;
+}
+.container {
+    margin: 0 auto;
+}
+.container::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: rgb(21, 22, 24);
+}
+.about {
+    text-align: center;
+    font-size: large;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 20px ;
+    display: inline-block;
+    margin: auto;
+}
+header ul li a:hover {
+    background-color: rgb(21, 22, 24);
+    color: #fff;
+
+}
+.banner {
+    height: 70vh;
+    background-image: url('../img/banner.jpeg');
+    background-size: cover;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 32, 32, 0.6);
+}
+.banner h2 {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+section{
+    padding: 50px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(21,22,24);
+    margin-bottom: 20px;
+}
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.label {
+    background-color: #a3a1a1
+}
+
+.Karir {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    margin: 20px;
+    padding: 10px;
+}
+.Prestasi {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    margin: 40px;
+    padding: 10px;
+}
+.Kutipan {
+    text-decoration:solid;
+    text-align: center;
+    font-size: larger;
+    text-decoration-line: underline;
+    border-collapse: collapse;
+    text-anchor:middle;
+    
+}
+.Gayabertarung { 
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    letter-spacing: 2px;
+}
+
+.foto {
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+    text-align: center;
+}
+.content {
+    text-align: center;
+}
+.Karya {
+    text-align: center;
+    border: 0;
+}
+.Pengaruh {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+    letter-spacing: 2px;
+}
+
+
+
+}*
